@@ -72,7 +72,7 @@ body {
   }
 
   @media only screen and (max-width: $s) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   ::selection {

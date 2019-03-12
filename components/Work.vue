@@ -31,6 +31,7 @@ export default {
 
   @media only screen and (max-width: $s) {
     grid-template-columns: auto 20%;
+    padding-top: initial;
   }
 }
 

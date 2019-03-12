@@ -7,21 +7,21 @@
     "mainTitle": "Selected works.",
     "works": [{
         "title": "Gabe & Kelly",
-        "link": "https://kellyphan.fr/gabekelly",
-        "techno": "Gatsby.js",
+        "link": "https://gabekelly.space",
+        "techno": "Gatsby.js & GSAP",
         "date": "2019"
       },
       {
-        "title": "Ugo Olsak",
-        "techno": "Vue.js & GSAP",
-        "link": "https://ugolsak.fr",
-        "date": "2018"
+        "title": "Memories station",
+        "techno": "Vue.js & P5.js",
+        "link": "https://generative.kellyphan.fr",
+        "date": "2019"
       },
       {
-        "title": "50 stories of Blue",
-        "techno": "Vue.js",
-        "link": "https://kellyphan.fr/50storiesofblue",
-        "date": "2017"
+        "title": "Ugo Olsak Portfolio",
+        "techno": "Vue.js & GSAP",
+        "link": "https://ugolsak.kellyphan.fr",
+        "date": "2018"
       }
     ]
   },
@@ -29,7 +29,7 @@
     "mainTitle": "Some details.",
     "infos": {
       "title": "In a nutshell",
-      "content": "<p>Currently a 4th year student at HETIC, I am a young aspiring frontend developer. As a digital enthusiast, I always want to improve myself and espacially in JavaScript.</p><p>Last year I decided to do my internship in Amsterdam where I worked at <a href='https://superherocheesecake.com' class='link' alt='Superherocheesecake website' target='_blank'>Superhero Cheesecake</a> as a Creative Developer intern during 4 months. It was one of the best experience I have had so far in my (young) carrer. I’ve been able to improve my skills thanks to talented and unique people and I am really greatful for that.</p><p><b>From July to December 2019, I’m actively looking for a 6 months internship in New York City (US). Feel free to reach me if you are interested :-).</b></p>"
+      "content": "<p>Currently a 4th year student at HETIC, I am a young aspiring frontend developer. As a digital enthusiast, I always want to improve myself and espacially in JavaScript.</p><p>Last year I decided to do my internship in Amsterdam where I worked at <a href='https://superherocheesecake.com' class='link' alt='Superherocheesecake website' target='_blank'>Superhero Cheesecake</a> as a Creative Developer intern during 4 months. It was one of the best experience I have had so far in my (young) carrer. I’ve been able to improve my skills thanks to talented and unique people and I am really greatful for that.</p><p><b>From July to December 2019, I’m actively looking for a 6-months internship in NYC. Feel free to reach me if you are interested :-).</b></p>"
     },
     "contact": {
       "title": "How to reach me?",
