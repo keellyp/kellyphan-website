@@ -2,7 +2,7 @@
   <div class="work">
     <div>
       <h4 class="work__title">
-        <a :href="where" :alt="what" class="link">
+        <a :href="where" :alt="what" class="link" target="_blank">
           {{ what }}
         </a>
       </h4>
