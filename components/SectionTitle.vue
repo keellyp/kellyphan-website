@@ -46,7 +46,7 @@ export default {
   line-height: 0.9;
 
   @media only screen and (max-width: $s) {
-    font-size: 6em;
+    font-size: 5.8em;
   }
 }
 </style>

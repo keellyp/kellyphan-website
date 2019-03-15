@@ -3,6 +3,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
+    lang: 'en',
     title: 'Kelly Phan - Portfolio',
     meta: [
       { charset: 'utf-8' },

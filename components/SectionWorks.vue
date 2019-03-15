@@ -30,6 +30,7 @@ export default {
 
   @media only screen and (max-width: $s) {
     flex-direction: column;
+    font-size: 0.75em;
   }
 }
 
