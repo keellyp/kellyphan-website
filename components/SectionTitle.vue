@@ -44,9 +44,12 @@ export default {
   font-size: 6.28em;
   font-weight: 600;
   line-height: 0.9;
+  @media only screen and (min-width: 351px) and (max-width: 779px) {
+    font-size: 5.6em;
+  }
 
-  @media only screen and (max-width: $s) {
-    font-size: 5.8em;
+  @media screen and (min-width: 300px) and (max-width: 350px) {
+    font-size: 4.8em;
   }
 }
 </style>
