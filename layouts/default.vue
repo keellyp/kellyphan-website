@@ -76,8 +76,8 @@ body {
   }
 
   ::selection {
-    background: #0554ff;
-    color: #fff;
+    background: #ffe600;
+    color: #000;
   }
 }
 
@@ -108,8 +108,8 @@ body {
 
     z-index: -1;
 
-    background-color: #0554ff;
-    opacity: 0.3;
+    background-color: #ffe600;
+    opacity: 0.6;
 
     transform: scaleX(0);
     transform-origin: right;
