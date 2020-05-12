@@ -1,40 +1,45 @@
 {
   "sectionTitle": {
     "mainTitle": "Kelly Phan",
-    "title": "I'm a front-end developer working in Brooklyn."
+    "title": "I'm a software engineer living in Paris, France."
   },
   "sectionWorks": {
     "mainTitle": "Selected works.",
     "works": [
       {
+        "title": "Stephanie Jeong Portfolio",
+        "link": "https://jeongsteph.design/",
+        "techno": "Nuxt.js, GSAP and Prismic",
+        "time": "Early",
+        "date": "2020"
+      },
+      {
+        "title": "Threes Brewing",
+        "link": "https://threesbrewing.com/",
+        "techno": "Shopify Templates",
+        "time": "End",
+        "date": "2019"
+      },
+      {
         "title": "Tapin Meditation",
         "link": "https://lets.tapintogether.com/",
         "techno": "React.js & PWA",
+        "time": "Mid",
         "date": "2019"
       },
       {
         "title": "hkind app",
         "link": "https://app.hkind.co/",
         "techno": "Next.js & PWA",
+        "time": "Early",
         "date": "2019"
       },
       {
         "title": "Gabe & Kelly",
         "link": "https://gabekelly.space",
         "techno": "Gatsby.js & GSAP",
+        "time": "Early",
         "date": "2019"
-      },
-      {
-        "title": "Memories station",
-        "techno": "Vue.js & P5.js",
-        "link": "https://generative.kellyphan.fr",
-        "date": "2019"
-      },
-      {
-        "title": "Ugo Olsak Portfolio",
-        "techno": "Vue.js & GSAP",
-        "link": "https://ugolsak.kellyphan.fr",
-        "date": "2018"
       }
     ]
   },
@@ -42,7 +47,7 @@
     "mainTitle": "Some details.",
     "infos": {
       "title": "In a nutshell",
-      "content": "<p>Hi you! I’m Kelly, a 4th-year student at HETIC and French front-end developer from Paris. Until December 2019, I'm doing my internship at <a href='https://fictivekin.com' class='link' alt='FK website' target='_blank'>Fictive Kin</a>, a digital studio based in Brooklyn. So far, my experience in New York City is incredible. I could not be more happy to work with great people in this amazing city. I’ve been able to improve myself professionally but also personally.</p><p>Last year I decided to do my internship in Amsterdam where I worked for <a href='https://superherocheesecake.com' class='link' alt='Superherocheesecake website' target='_blank'>Superhero Cheesecake</a> as a Creative Developer intern for 4 months. Working with talented people helped me to improve a lot of my skills, and it made this internship unique.</p><p><b>Next January, I’ll start my 5th and last year at HETIC and I’m looking for an apprenticeship from January to December 2019 in Paris. I'll be happy to chat with you for any opportunities, so feel free to reach me if you are interested :-).</b></p>"
+      "content": "<p>Hi you! I’m Kelly, a 5th-year student at HETIC and French front-end developer from Paris. Currently working at <a href='https://payfit.com' class='link' target='_blank'>Payfit</a> for my apprenticeship, I'm evolving as software engineer there surrounded by talented humans.</p><p>Last year, I live the best internship ever during 6 months at <a href='https://fictivekin.com' class='link' target='_blank'>Fictive Kin</a>, a digital studio based in Brooklyn. New York experience was incredible, I worked with great people, visited this amazing city, and I'm looking forward to come back one day.</p><p>Next January, I’ll end my student life and I'm going to look for new opportunities, in France, Europe or wherever life takes me. So I'll be happy to chat with you for any kind of projects :-).</p>"
     },
     "contact": {
       "title": "How to reach me?",

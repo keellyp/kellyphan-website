@@ -8,18 +8,21 @@
       </h4>
       <span class="work__info">{{ how }}</span>
     </div>
-    <p class="work__date">{{ when }}</p>
+    <p class="work__date">
+      <span class="time">{{ time }}</span>
+      {{ when }}
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['what', 'how', 'when', 'where'],
+  props: ["what", "how", "when", "where", "time"]
 };
 </script>
 
 <style lang="scss">
-@import '@/assets/_breakpoints.scss';
+@import "@/assets/_breakpoints.scss";
 
 .work {
   display: grid;
@@ -51,10 +54,18 @@ export default {
 }
 
 .work__date {
+  position: relative;
   justify-self: right;
-  align-self: center;
+  align-self: end;
 
   font-size: 2.78em;
   font-weight: 200;
+
+  .time {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 0.5em;
+  }
 }
 </style>

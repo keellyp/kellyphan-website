@@ -1,23 +1,22 @@
 <template>
   <header class="sectionTitle">
     <div class="sectionTitle__title">
-      <h1 class="sectionTitle__titleText">{{datas.mainTitle}}</h1>
+      <h1 class="sectionTitle__titleText">{{ datas.mainTitle }}</h1>
     </div>
     <div class="sectionTitle__baseline">
-      <h2 class="sectionTitle__baselineText">{{datas.title}}</h2>
+      <h2 class="sectionTitle__baselineText">{{ datas.title }}</h2>
     </div>
   </header>
 </template>
 
 <script>
 export default {
-  props:['datas']
-}
+  props: ["datas"]
+};
 </script>
 
-
-<style lang='scss'>
-@import '@/assets/_breakpoints.scss';
+<style lang="scss">
+@import "@/assets/_breakpoints.scss";
 
 .sectionTitle {
   user-select: none;
@@ -33,7 +32,7 @@ export default {
 }
 
 .sectionTitle__baseline {
-  margin-top: calc(100vw * 0.25);
+  margin-top: calc(100vw * 0.35);
 
   @media only screen and (max-width: $s) {
     margin-top: calc(100vh * 0.25);

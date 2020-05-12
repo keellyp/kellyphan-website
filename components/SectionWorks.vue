@@ -2,25 +2,32 @@
   <section class="works">
     <h3 class="section__title works__title">Selected works.</h3>
     <div class="works__work">
-      <Work v-for="(data, index) in datas.works" :key="index" :what="data.title" :how="data.techno" :when="data.date" :where="data.link"/>
+      <Work
+        v-for="(data, index) in datas.works"
+        :key="index"
+        :what="data.title"
+        :how="data.techno"
+        :when="data.date"
+        :where="data.link"
+        :time="data.time"
+      />
     </div>
   </section>
 </template>
 
 <script>
-import Work from '~/components/Work.vue';
+import Work from "~/components/Work.vue";
 
 export default {
   components: {
-    Work,
+    Work
   },
-  props: ['datas']
+  props: ["datas"]
 };
 </script>
 
-
-<style lang='scss'>
-@import '@/assets/_breakpoints.scss';
+<style lang="scss">
+@import "@/assets/_breakpoints.scss";
 
 .works {
   display: flex;

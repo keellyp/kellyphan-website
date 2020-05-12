@@ -5,29 +5,29 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/_breakpoints.scss';
+@import "@/assets/_breakpoints.scss";
 @font-face {
-  font-family: 'Anderson-Grotesk';
+  font-family: "Anderson-Grotesk";
   font-weight: 400;
-  src: url('/fonts/AndersonGrotesk.otf');
+  src: url("/fonts/AndersonGrotesk.otf");
 }
 
 @font-face {
-  font-family: 'Anderson-Grotesk';
+  font-family: "Anderson-Grotesk";
   font-weight: 200;
-  src: url('/fonts/AndersonGrotesk-Light.otf');
+  src: url("/fonts/AndersonGrotesk-Light.otf");
 }
 
 @font-face {
-  font-family: 'Anderson-Grotesk';
+  font-family: "Anderson-Grotesk";
   font-weight: 600;
-  src: url('/fonts/AndersonGrotesk-Bold.otf');
+  src: url("/fonts/AndersonGrotesk-Bold.otf");
 }
 
 @font-face {
-  font-family: 'Anderson-Grotesk';
+  font-family: "Anderson-Grotesk";
   font-weight: 800;
-  src: url('/fonts/AndersonGrotesk-Ultrabold.otf');
+  src: url("/fonts/AndersonGrotesk-Ultrabold.otf");
 }
 
 *,
@@ -50,7 +50,7 @@ ul {
 }
 
 html {
-  font-family: 'Anderson-Grotesk', sans-serif;
+  font-family: "Anderson-Grotesk", sans-serif;
   font-size: 62.5%;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -99,7 +99,7 @@ body {
   font-weight: 800;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 10%;
     left: 3%;
@@ -108,7 +108,7 @@ body {
 
     z-index: -1;
 
-    background-color: #ffe600;
+    background-color: #0554ff;
     opacity: 0.6;
 
     transform: scaleX(0);
